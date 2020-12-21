@@ -11,9 +11,22 @@
 
 }
 
+@font-face {
+    font-family: 'ralewayregular';
+    src: url('fonts/raleway-regular-webfont.eot');
+    src: url('fonts/raleway-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/raleway-regular-webfont.woff2') format('woff2'),
+         url('fonts/raleway-regular-webfont.woff') format('woff'),
+         url('fonts/raleway-regular-webfont.ttf') format('truetype'),
+         url('fonts/raleway-regular-webfont.svg#ralewayregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body
 {
-	font-family: 'ralewaythin', Verdana, Arial, "Trebuchet MS", sans-serif;
+	font-family: 'ralewayregular', 'ralewaythin', Verdana, Arial, "Trebuchet MS", sans-serif;
 }
 
 /*
@@ -23,8 +36,94 @@ bleu clair: #DEEBFF;
 gris: #F2F2F2;
 */
 
-#main_wrap
+body
 {
-	width: 90%;
+	width: 95%;
 	margin: auto;
+    margin-bottom: 50px;
 }
+
+h1, h3
+{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+h2
+{
+    font-size: 1em;
+    font-weight: normal;
+}
+
+h4
+{
+    font-size: 1em;
+    font-weight: bold;
+}
+
+header
+{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+header h1
+{
+    margin-top: 150px;
+    margin-bottom: 0px;
+}
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+    position: absolute;
+    padding-top: 34px;
+    top: 0px;
+    right: 120px;
+}
+
+nav a
+{
+    color: black;
+    text-decoration: none;
+    padding-top: 48px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+nav a:hover
+{
+    border-top: solid 2px #0065FC;
+    color: #0065FC;
+}
+
+#logo
+{
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    width: 100px;
+}
+
+#logo img
+{
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+#inscription
+{
+    position: absolute;
+    top: 50px;
+    right: 0px;
+    color: #0065FC;
+    text-decoration: none;
+}
+
