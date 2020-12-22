@@ -82,81 +82,195 @@
 					<!-- affichage logements-->
 					<div id="grille_logements">
 						<!-- logement particulier-->
-						<div class="boite_logement">
-							<!-- photo-->
-							<img />
-							<h5>Auberge de la Cannebière</h5>
-							<p>Nuit à partir de <em>25€</em></p>
-							<!-- nombre d'etoiles--><img />
+						<div class="boite_logement" id="cannebiere">
+							<div class="photo">
+								<!-- photo en background CSS, div pour flex-->
+								<!--<img src="img/small/cannebiere.jpg" alt="Auberge de la Cannebière" />-->
+							</div>
+
+							<div class="boite_texte">
+								<h5>Auberge de la Cannebière</h5>
+								<p>Nuit à partir de <em>25€</em></p>
+								<!-- nombre d'etoiles-->
+								<div class="stars">
+									<i class="fas fa-star fa-xs blue"></i>
+									<i class="fas fa-star fa-xs blue"></i>
+									<i class="fas fa-star fa-xs blue"></i>
+									<i class="fas fa-star fa-xs blue"></i>
+									<i class="fas fa-star fa-xs grey"></i>
+								</div>
+							</div>
 						</div>
 
-						<div class="boite_logement">
-							<img />
-							<h5>Hôtel du port</h5>
-							<p>Nuit à partir de <em>52€</em></p>
-							<img />
+						<div class="boite_logement" id="duport">
+							<div class="photo">
+								<!--<img src="img/small/duport.jpg" alt="Hôtel du port" />-->
+							</div>
+
+							<div class="boite_texte">
+								<h5>Hôtel du port</h5>
+								<p>Nuit à partir de <em>52€</em></p>
+								<div class="stars">
+									<i class="fas fa-star fa-xs blue"></i>
+									<i class="fas fa-star fa-xs blue"></i>
+									<i class="fas fa-star fa-xs blue"></i>
+									<i class="fas fa-star fa-xs blue"></i>
+									<i class="fas fa-star fa-xs blue"></i>
+									<i class="fas fa-star fa-xs blue"></i>
+								</div>
+							</div>
 						</div>
 
-						<div class="boite_logement">
-							<img />
-							<h5>Hôtel Les mouettes</h5>
-							<p>Nuit à partir de <em>76€</em></p>
-							<img />
+						<div class="boite_logement" id="mouettes">
+							<div class="photo">
+								<!--<img src="img/small/mouettes.jpg" alt="Hôtel Les mouettes" />-->
+							</div>
+
+							<div class="boite_texte">
+								<h5>Hôtel Les mouettes</h5>
+								<p>Nuit à partir de <em>76€</em></p>
+								<div class="stars">
+									<i class="fas fa-star fa-xs blue"></i>
+									<i class="fas fa-star fa-xs blue"></i>
+									<i class="fas fa-star fa-xs blue"></i>
+									<i class="fas fa-star fa-xs blue"></i>
+									<i class="fas fa-star fa-xs grey"></i>
+								</div>
+							</div>
 						</div>
 
-						<div class="boite_logement">
-							<img />
-							<h5>Hôtel de la mer</h5>
-							<p>Nuit à partir de <em>46€</em></p>
-							<img />
+						<div class="boite_logement" id="delamer">
+							<div class="photo">
+								<!--<img src="img/small/delamer.jpg" alt="Hôtel de la mer" />-->
+							</div>
+
+							<div class="boite_texte">
+								<h5>Hôtel de la mer</h5>
+								<p>Nuit à partir de <em>46€</em></p>
+								<div class="stars">
+									<i class="fas fa-star fa-xs blue"></i>
+									<i class="fas fa-star fa-xs blue"></i>
+									<i class="fas fa-star fa-xs blue"></i>
+									<i class="fas fa-star fa-xs grey"></i>
+									<i class="fas fa-star fa-xs grey"></i>
+								</div>
+							</div>
 						</div>
 
-						<div class="boite_logement">
-							<img />
-							<h5>Auberge Le Panier</h5>
-							<p>Nuit à partir de <em>23€</em></p>
-							<img />
+						<div class="boite_logement" id="panier">
+							<div class="photo">
+								<!--<img src="img/small/panier.jpg" alt="Auberge Le Panier" />-->
+							</div>
+
+							<div class="boite_texte">
+								<h5>Auberge Le Panier</h5>
+								<p>Nuit à partir de <em>23€</em></p>
+								<div class="stars">
+									<i class="fas fa-star fa-xs blue"></i>
+									<i class="fas fa-star fa-xs blue"></i>
+									<i class="fas fa-star fa-xs blue"></i>
+									<i class="fas fa-star fa-xs blue"></i>
+									<i class="fas fa-star fa-xs grey"></i>
+								</div>
+							</div>
 						</div>
 
-						<div class="boite_logement">
-							<img />
-							<h5>Hôtel chez Amina</h5>
-							<p>Nuit à partir de <em>96€</em></p>
-							<img />
+						<div class="boite_logement" id="amina">
+							<div class="photo">
+								<!--<img src="img/small/amina.jpg" alt="Hôtel chez Amina" />-->
+							</div>
+
+							<div class="boite_texte">
+								<h5>Hôtel chez Amina</h5>
+								<p>Nuit à partir de <em>96€</em></p>
+								<div class="stars">
+									<i class="fas fa-star fa-xs blue"></i>
+									<i class="fas fa-star fa-xs blue"></i>
+									<i class="fas fa-star fa-xs blue"></i>
+									<i class="fas fa-star fa-xs blue"></i>
+									<i class="fas fa-star fa-xs blue"></i>
+								</div>
+							</div>
 						</div>
 					</div>
 
-					<a href="resultats.html">Afficher plus</a>
+					<div id="more_results">
+						<a href="resultats.html">Afficher plus</a>
+					</div>
 				</div>
 
 				<!-- Plus populaires-->
 				<aside id="populaire">
-					<h3>Les plus populaires</h3>
+					<div id="header_populaires">
+						<h3>Les plus populaires</h3>
 
-					<!-- icone populaire-->
-					<img />
+						<!-- icone populaire-->
+						<i class="fas fa-chart-line fa-lg"></i>
+					</div>
 
 					<!-- liste populaires-->
 					<div id="grille_populaires">
-						<div class="boite_populaire">
-							<img />
-							<h5>Hôtel Le soleil du matin</h5>
-							<p>Nuit à partir de <em>128€</em></p>
-							<img />
+						<div class="boite_populaire" id="soleildumatin">
+							<div class="photo">
+								<!--<img src="img/small/soleildumatin.jpg" alt="Hôtel Le soleil du matin" />-->
+							</div>
+
+							<div class="boite_texte">
+								<div>
+									<h5>Hôtel Le soleil du matin</h5>
+									<p>Nuit à partir de <em>128€</em></p>
+								</div>
+
+								<div class="stars">
+									<i class="fas fa-star fa-xs blue"></i>
+									<i class="fas fa-star fa-xs blue"></i>
+									<i class="fas fa-star fa-xs blue"></i>
+									<i class="fas fa-star fa-xs blue"></i>
+									<i class="fas fa-star fa-xs blue"></i>
+								</div>
+							</div>
 						</div>
 
-						<div class="boite_populaire">
-							<img />
-							<h5>Au coeur de l'eau Chambre d'hôtes</h5>
-							<p>Nuit à partir de <em>71€</em></p>
-							<img />
+						<div class="boite_populaire" id="coeurdeleau">
+							<div class="photo">
+								<!--<img src="img/small/coeurdeleau.jpg" alt="Au coeur de l'eau Chambre d'hôtes" />-->
+							</div>
+
+							<div class="boite_texte">
+								<div>
+									<h5>Au coeur de l'eau Chambre d'hôtes</h5>
+									<p>Nuit à partir de <em>71€</em></p>
+								</div>
+
+								<div class="stars">
+									<i class="fas fa-star fa-xs blue"></i>
+									<i class="fas fa-star fa-xs blue"></i>
+									<i class="fas fa-star fa-xs blue"></i>
+									<i class="fas fa-star fa-xs blue"></i>
+									<i class="fas fa-star fa-xs grey"></i>
+								</div>
+							</div>
 						</div>
 
-						<div class="boite_populaire">
-							<img />
-							<h5>Hôtel Tout bleu et blanc</h5>
-							<p>Nuit à partir de <em>68€</em></p>
-							<img />
+						<div class="boite_populaire" id="bleublanc">
+							<div class="photo">
+								<!--<img src="img/small/bleublanc.jpg" alt="Hôtel Tout bleu et blanc" />-->
+							</div>
+
+							<div class="boite_texte">
+								<div>
+									<h5>Hôtel Tout bleu et blanc</h5>
+									<p>Nuit à partir de <em>68€</em></p>
+								</div>
+
+								<div class="stars">
+									<i class="fas fa-star fa-xs blue"></i>
+									<i class="fas fa-star fa-xs blue"></i>
+									<i class="fas fa-star fa-xs blue"></i>
+									<i class="fas fa-star fa-xs blue"></i>
+									<i class="fas fa-star fa-xs grey"></i>
+								</div>
+							</div>
 						</div>
 					</div>
 				</aside>
