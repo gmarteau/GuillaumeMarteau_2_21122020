@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
 		<title>Reservia</title>
 	</head>
 
@@ -10,18 +11,11 @@
 		<div id="main_wrap">
 			<header>
 				<!-- Logo Reservia-->
-				<div id="logo">
-					<img src="img/reservia_logo.png" alt="Logo de Reservia" />
+				<div id="logo_container">
+					<div id="logo">
+						<img src="img/Reservia.svg" alt="Logo de Reservia" />
+					</div>
 				</div>
-
-				<!-- Titre et sous-titre-->
-				<h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-				<h2>En plein centre-ville ou en pleine nature</h2>
-
-				<!-- Inscription-->
-				<p>
-					<a href="inscription.html" id="inscription"><strong>S'inscrire</strong></a>
-				</p>
 
 				<!-- Menu de navigation-->
 				<nav>
@@ -30,13 +24,31 @@
 						<li><a href="#activites">Activités</a></li>
 					</ul>
 				</nav>
+
+				<!-- Inscription-->
+				<p id="inscription">
+					<a href="inscription.html"><strong>S'inscrire</strong></a>
+				</p>
 			</header>
 
 			<!-- Section recherche et filtres-->
 			<section id="recherche">
+				<!-- Titre et sous-titre-->
+				<div id="titre">
+					<h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+					<h2>En plein centre-ville ou en pleine nature</h2>
+				</div>
+
 				<!-- Barre de recherche-->
 				<form method="post" action="traitement.php">
-					<label for="ville"><!--icone geoloc--><img /></label><input type="text" name="ville" id="ville" placeholder="Marseille, France" required /><input type="submit" value="Rechercher" />
+					<div class="input_container">
+						<!--icone geoloc-->
+						<div class="icon_box">
+							<i class="fas fa-map-marker-alt icon"></i>
+						</div>
+						<input type="text" name="ville" id="ville" class="input_field" placeholder="Marseille, France" required />
+						<input type="submit" value="Rechercher" class="input_submit" />
+					</div>
 				</form>
 
 				<!-- Filtres-->
@@ -44,32 +56,19 @@
 					<h4>Filtres</h4>
 
 					<!-- iteration filtre-->
-					<div class="filtre">
-						<!-- icone-->
-						<img />
-						<p>Économique</p>
-					</div>
+					<button class="filtre"><i class="fas fa-money-bill-wave filtre_icon"></i><span class="filtre_texte">Économique</span></button>
 
-					<div class="filtre">
-						<img />
-						<p>Familial</p>
-					</div>
+					<button class="filtre"><i class="fas fa-child filtre_icon"></i><span class="filtre_texte">Familial</span></button>
 
-					<div class="filtre">
-						<img />
-						<p>Romantique</p>
-					</div>
-
-					<div class="filtre">
-						<img />
-						<p>Animaux autorisés</p>
-					</div>
+					<button class="filtre"><i class="fas fa-heart filtre_icon"></i><span class="filtre_texte">Romantique</span></button>
+	
+					<button class="filtre"><i class="fas fa-dog filtre_icon"></i><span class="filtre_texte">Animaux autorisés</span></button>
 				</div>
 
 				<!-- Nombre de resultats-->
 				<div id="info_result">
 					<!-- icone info-->
-					<img />
+					<i class="fas fa-info fa-xs info_icon"></i>
 					<p>Plus de 500 logements sont disponibles dans cette ville</p>
 				</div>
 			</section>
