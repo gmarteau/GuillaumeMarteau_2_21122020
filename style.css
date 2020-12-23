@@ -59,8 +59,8 @@ gris: #F2F2F2;
 
 #main_wrap
 {
-    width: 95%;
-    max-width: 95%;
+    width: 100%;
+    max-width: 100%;
     margin: auto;
     margin-top: 20px;
     /*bordure pour debug*/
@@ -96,9 +96,13 @@ h5
 
 header
 {
+    width: 92%;
+    max-width: 92%;
+    margin: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding-top: 25px;
 }
 
 header a
@@ -126,8 +130,8 @@ nav a
     padding-right: 10px;
     margin-left: 40px;
     padding-left: 10px;
-    padding-top: 34px;
-    margin-top: -34px;
+    padding-top: 59px;
+    margin-top: -59px;
 }
 
 nav a:hover
@@ -169,13 +173,25 @@ nav a:hover
 
 #titre h1
 {
-    margin-top: 100px;
     margin-bottom: 0px;
     width: 50%;
 }
 
 
 /*BARRE DE RECHERCHE*/
+
+#recherche
+{
+    width: 92%;
+    max-width: 92%;
+    margin: auto;
+    height: 350px;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
 .input_container
 {
@@ -284,6 +300,9 @@ nav a:hover
 
 #hebergements
 {
+    width: 92%;
+    max-width: 92%;
+    margin: auto;
     display: flex;
     justify-content: space-between;
     height: 700px;
@@ -542,7 +561,11 @@ em
 
 #activites
 {
-    height: 600px;
+    width: 92%;
+    max-width: 92%;
+    margin: auto;
+    height: 650px;
+    padding-bottom: 50px;
 }
 
 #activites h3
@@ -648,3 +671,45 @@ em
     background-repeat: no-repeat;
     background-position: 0px -70px;
 }
+
+/*FOOTER*/
+
+footer
+{
+    height: 300px;
+    background-color: #F2F2F2;
+    padding-left: 4%;
+    padding-right: 4%;
+    display: flex;
+    padding-top: 3%;
+}
+
+footer div
+{
+    width: 32%;
+}
+
+footer ul
+{
+    font-size: 1.1em;
+    list-style-type: none;
+    padding-inline: 0;
+}
+
+footer a
+{
+    color: black;
+    text-decoration: none;
+}
+
+footer li
+{
+    margin-bottom: 20px;
+}
+
+footer h4
+{
+    margin-block: 0;
+    margin-bottom: 30px;
+}
+
