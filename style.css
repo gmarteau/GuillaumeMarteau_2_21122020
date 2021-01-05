@@ -307,14 +307,6 @@ nav a:hover
     justify-content: space-between;
 }
 
-@media screen and (max-device-width: 480px)
-{
-    #recherche
-    {
-        height: auto;
-    }
-}
-
 #searchbar_mobile
 {
     display: none;
@@ -373,6 +365,11 @@ nav a:hover
 /*Mobile - BARRE DE RECHERCHE*/
 @media screen and (max-device-width: 480px)
 {
+    #recherche
+    {
+        height: auto;
+    }
+
     #searchbar_desktop
     {
         display: none;
@@ -1201,6 +1198,7 @@ em
     }
 }
 
+
 /*FOOTER*/
 
 footer
@@ -1241,6 +1239,7 @@ footer h4
     margin-block: 0;
     margin-bottom: 30px;
 }
+
 
 /*Mobile - FOOTER*/
 @media screen and (max-device-width: 480px)
