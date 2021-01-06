@@ -1185,6 +1185,12 @@ em
     margin-bottom: 40px;
 }
 
+#activites a
+{
+    color: black;
+    text-decoration: none;
+}
+
 #grille_activites
 {
     display: flex;
