@@ -2,6 +2,7 @@
 <html lang="fr">
 	<head>
 		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="style.css" />
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
 		<title>Reservia</title>
@@ -11,10 +12,8 @@
 		<div id="main_wrap">
 			<header>
 				<!-- Logo Reservia-->
-				<div id="logo_container">
-					<div id="logo">
-						<img src="img/Reservia.svg" alt="Logo de Reservia" />
-					</div>
+				<div id="logo">
+					<img src="img/reservia.svg" alt="Logo de Reservia" />
 				</div>
 
 				<!-- Menu de navigation-->
@@ -26,9 +25,7 @@
 				</nav>
 
 				<!-- Inscription-->
-				<p id="inscription">
-					<a href="inscription.html"><strong>S'inscrire</strong></a>
-				</p>
+				<a id="inscription" href="inscription.html"><strong>S'inscrire</strong></a>
 			</header>
 
 			<!-- Section recherche et filtres-->
@@ -44,9 +41,7 @@
 					<form method="post" action="traitement.php">
 						<div class="input_container">
 							<!--icone geoloc-->
-							<div class="icon_box">
-								<i class="fas fa-map-marker-alt icon"></i>
-							</div>
+							<i class="icon_box fas fa-map-marker-alt icon"></i>
 							<input type="text" name="ville" id="ville" class="input_field" placeholder="Marseille, France" required />
 							<input type="submit" value="Rechercher" class="input_submit" />
 						</div>
@@ -58,12 +53,10 @@
 					<form method="post" action="traitement.php">
 						<div class="input_container">
 							<!--icone geoloc-->
-							<div class="icon_box">
-								<i class="fas fa-map-marker-alt fa-3x icon"></i>
-							</div>
+							<i class="icon_box fas fa-map-marker-alt icon"></i>
 							<input type="text" name="ville" id="ville" class="input_field" placeholder="Marseille, France" required />
 							<button type="submit" class="input_submit">
-								<i class="fas fa-search fa-2x"></i>
+								<i class="fas fa-search"></i>
 							</button>
 						</div>
 					</form>
@@ -76,33 +69,25 @@
 					<div id="boutons_filtres">
 						<!-- iteration filtre-->
 						<button class="filtre">
-							<div class="filtre_icon">
-								<i class="fas fa-money-bill-wave"></i>
-							</div>
+							<i class="filtre_icon fas fa-money-bill-wave"></i>
 
 							<span class="filtre_texte">Économique</span>
 						</button>
 
 						<button class="filtre">
-							<div class="filtre_icon">
-								<i class="fas fa-child"></i>
-							</div>
+							<i class="filtre_icon fas fa-child"></i>
 
 							<span class="filtre_texte">Familial</span>
 						</button>
 
 						<button class="filtre">
-							<div class="filtre_icon">
-								<i class="fas fa-heart"></i>
-							</div>
+							<i class="filtre_icon fas fa-heart"></i>
 
 							<span class="filtre_texte">Romantique</span>
 						</button>
 		
 						<button class="filtre">
-							<div class="filtre_icon">
-								<i class="fas fa-dog"></i>
-							</div>
+							<i class="filtre_icon fas fa-dog"></i>
 
 							<span class="filtre_texte">Animaux autorisés</span>
 						</button>
@@ -112,9 +97,7 @@
 				<!-- Nombre de resultats-->
 				<div id="info_result">
 					<!-- icone info-->
-					<div class="info_icon">
-						<i class="fas fa-info fa-xs"></i>
-					</div>
+					<i class="info_icon fas fa-info fa-xs"></i>
 
 					<p>Plus de 500 logements sont disponibles dans cette ville</p>
 				</div>
@@ -241,9 +224,7 @@
 						</div>
 					</div>
 
-					<div id="more_results">
-						<a href="resultats.html">Afficher plus</a>
-					</div>
+					<a id="more_results" href="resultats.html">Afficher plus</a>
 				</div>
 
 				<!-- Plus populaires-->
@@ -338,9 +319,7 @@
 							</div>
 
 							<!-- nom du lieu-->
-							<div class="boite_texte">
-								<h5>Vieux Port</h5>
-							</div>
+							<h5 class="boite_texte">Vieux Port</h5>
 						</div>
 					</div>
 
@@ -350,18 +329,14 @@
 							<div class="photo">
 							</div>
 
-							<div class="boite_texte">
-								<h5>Fort de Pomègues</h5>
-							</div>
+							<h5 class="boite_texte">Fort de Pomègues</h5>
 						</div>
 
 						<div class="boite_activite" id="frioul">
 							<div class="photo">
 							</div>
 
-							<div class="boite_texte">
-								<h5>Îles du Frioul</h5>
-							</div>
+							<h5 class="boite_texte">Îles du Frioul</h5>
 						</div>
 					</div>
 
@@ -370,9 +345,7 @@
 							<div class="photo">
 							</div>
 
-							<div class="boite_texte">
-								<h5>Parc National des Calanques</h5>
-							</div>
+							<h5 class="boite_texte">Parc National des Calanques</h5>
 						</div>
 					</div>
 
@@ -381,18 +354,14 @@
 							<div class="photo">
 							</div>
 
-							<div class="boite_texte">
-								<h5>Notre-Dame-de-la-Garde</h5>
-							</div>
+							<h5 class="boite_texte">Notre-Dame-de-la-Garde</h5>
 						</div>
 
 						<div class="boite_activite" id="longchamp">
 							<div class="photo">
 							</div>
 
-							<div class="boite_texte">
-								<h5>Parc Longchamp</h5>
-							</div>
+							<h5 class="boite_texte">Parc Longchamp</h5>
 						</div>
 					</div>
 				</div>

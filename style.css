@@ -101,11 +101,6 @@ header a
     font-size: 1.1em;
 }
 
-nav
-{
-    flex: 2;
-}
-
 nav ul
 {
     list-style-type: none;
@@ -131,26 +126,16 @@ nav a:hover
     color: #0065FC;
 }
 
-#logo_container
-{
-    flex: 7;
-}
-
 #logo
 {
-    width: 12%;
-    min-width: 150px;
+    flex: 7;
+    width: 20%;
 }
 
-#logo img
+#inscription
 {
-    width: 100%;
-    height: auto;
-    float: left;
-}
-
-#inscription a
-{
+    padding-top: 15px;
+    display: inline-block;
     color: #0065FC;
     text-decoration: none;
     margin-left: 50px;
@@ -163,47 +148,32 @@ nav a:hover
     {
         width: 100%;
         max-width: 100%;
+        height: 120px;
+        padding-top: 0;
         flex-wrap: wrap;
-        height: 300px;
-        align-content: space-around;  
-    }
-
-    #logo_container
-    {
-        width: 50%;
-        height: 50%;
-        margin-left: 5%;
-        order: 1;
-        display: flex;
-        align-items: flex-end;
+        align-content: space-between;  
     }
 
     #logo
     {
-        width: 65%;
+        margin-left: 5%;
+        order: 1;
     }
 
     #inscription
     {
-        width: 50%;
-        height: 50%;
         margin-right: 5%;
         order: 2;
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
     }
 
-    #inscription a
+    header a
     {
-        font-size: 2.3em;
-        /*font-family: 'ralewayextrabold', Verdana, Arial, "Trebuchet MS", sans-serif;*/
+        font-size: 1em;
     }
 
     nav
     {
         width: 100%;
-        height: 50%;
         order: 3;
         display: flex;
         align-items: center;
@@ -229,11 +199,10 @@ nav a:hover
     nav a
     {
         width: 100%;
-        height: 90%;
-        font-size: 2.4em;
-        border-bottom: solid 4px #F2F2F2;
+        border-bottom: solid 3px #F2F2F2;
         margin: 0;
         padding: 0;
+        padding-bottom: 15px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -241,7 +210,7 @@ nav a:hover
 
     nav a:hover, nav a:active
     {
-        border-bottom: solid 4px #0065FC;
+        border-bottom: solid 3px #0065FC;
         color: #0065FC;
         border-top: 0;
     }
@@ -261,7 +230,6 @@ nav a:hover
 {
     #titre
     {
-        height: 250px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -269,16 +237,18 @@ nav a:hover
 
     #titre h1
     {
-        width: 85%;
-        font-size: 3.5em;
-        margin-bottom: 30px;
+        font-size: 1.4em;
+        width: 100%;
+        margin-block: 0;
+        margin-top: 30px;
+        margin-bottom: 10px;
     }
 
     #titre h2
     {
-        width: 85%;
-        font-size: 2.4em;
+        width: 100%;
         margin-block: 0;
+        margin-bottom: 30px;
     }
 }
 
@@ -327,14 +297,9 @@ nav a:hover
     color: black;
     min-width: 50px;
     text-align: center;
+    padding-top: 15px;
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
-}
-
-.icon
-{
-    margin: auto;
-    padding: 30%;
 }
 
 .input_field
@@ -372,8 +337,8 @@ nav a:hover
     #searchbar_mobile
     {
         display: flex;
-        height: 300px;
         width: 100%;
+        min-width: 100%;
         justify-content: center;
         align-items: center;
     }
@@ -381,28 +346,21 @@ nav a:hover
     #searchbar_mobile form
     {
         width: 100%;
-        height: 100px;
     }
 
     #searchbar_mobile .input_container
     {
         width: 100%;
-        height: 120px;
-        border: solid 3px #F2F2F2;
-        border-radius: 40px;
     }
 
     .input_field
     {
-        font-size: 2.5em;
         flex: 5;
     }
 
     .icon_box
     {
         flex: 0.9;
-        border-bottom-left-radius: 40px;
-        border-top-left-radius: 40px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -411,7 +369,7 @@ nav a:hover
     .input_submit
     {
         flex: 0.9;
-        border-radius: 40px;
+        border-radius: 10px;
     }
 }
 
@@ -459,11 +417,12 @@ nav a:hover
     background: #DEEBFF;
     color: #0065FC;
     height: 50px;
+    min-height: 50px;
     width: 50px;
+    min-width: 50px;
     border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding-top: 17px;
+    padding-right: 2px;
 }
 
 .filtre_texte
@@ -483,46 +442,32 @@ nav a:hover
 {
     #filtres
     {
-        height: 550px;
-        width: 90%;
+        width: 100%;
         flex-direction: column;
         justify-content: space-around;
         align-items: flex-start;
-        margin-bottom: 60px;
+        margin-top: 30px;
     }
 
     #filtres h4
     {
-        font-size: 2.5em;
         margin-block: 0;
         margin-bottom: 20px;
     }
 
     #boutons_filtres
     {
-        height: 80%;
         display: flex;
         flex-flow: row wrap;
         align-content: space-around;
+        justify-content: flex-start;
     }
 
     .filtre
     {
-        font-size: 2.4em;
-        height: 120px;
-        border-radius: 120px;
-    }
-
-    .filtre_icon
-    {
-        width: 120px;
-        height: 120px;
-    }
-
-    .filtre_texte
-    {
-        padding-left: 20px;
-        padding-right: 30px;
+        font-size: 1em;
+        margin-bottom: 15px;
+        margin-right: 10px;
     }
 
     .filtre:active
@@ -549,9 +494,8 @@ nav a:hover
     width: 25px;
     height: 25px;
     border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding-top: 5px;
+    padding-left: 8px;
 }
 
 #info_result p
@@ -564,26 +508,13 @@ nav a:hover
 {
     #info_result
     {
-        height: 150px;
-        font-size: 2.4em;
         align-items: flex-start;
         margin-bottom: 30px;
-    }
-
-    .info_icon
-    {
-        width: 60px;
-        height: 60px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 0;
-        border: solid 3px #F2F2F2;
+        margin-top: 20px;
     }
 
     #info_result p
     {
-        margin-left: 30px;
         margin-block: 0;
         width: 90%;
     }
@@ -625,32 +556,12 @@ nav a:hover
         max-width: 100%;
         flex-direction: column;
         align-items: center;
-        height: 5345px;
-    }
-
-    #hebergements h3
-    {
-        font-size: 3.5em;
-    }
-
-    #hebergements p
-    {
-        font-size: 2.1em;
+        height: auto;
     }
 
     #hebergements h5
     {
-        font-size: 2.4em;
-    }
-
-    #hebergements a
-    {
-        font-size: 2.5em;
-    }
-
-    .stars
-    {
-        font-size: 0.6em;
+        font-size: 1em;
     }
 }
 
@@ -681,8 +592,7 @@ nav a:hover
     height: 10%;
     /*border: 1px solid black;*/
     margin-block: 0;
-    display: flex;
-    align-items: flex-end;
+    padding-top: 35px;
     width: 100%;
 }
 
@@ -807,39 +717,32 @@ em
     {
         order: 2;
         width: 90%;
-        height: 3625px;
+        height: 1500px;
         background-color: white;
         padding: 0;
         border-radius: 0;
+        padding-top: 40px;
         justify-content: space-between;
-        padding-top: 120px;
-        padding-bottom: 100px;
     }
 
     #resultats h3
     {
-        height: 150px;
-    }
-
-    #more_results
-    {
-        height: 100px;
+        flex: 0.3;
+        height: auto;
     }
 
     #grille_logements
     {
-        height: 3155px;
         flex-flow: column nowrap;
         justify-content: space-around;
         align-items: center;
+        flex: 8;
     }
 
     .boite_logement
     {
         width: 100%;
-        height: 500px;
-        border-radius: 40px;
-        border: 10px solid white;
+        height: 15%;
     }
 
     .boite_logement .photo
@@ -850,43 +753,42 @@ em
     .boite_logement .boite_texte
     {
         height: 40%;
-        border-bottom-left-radius: 20px;
-        border-bottom-right-radius: 20px;
-    }
-
-    .boite_logement .stars
-    {
-        font-size: 2.8em;
     }
 
     #cannebiere
     {
-        background-position: 0px -100px;
+        background-position: 0px -50px;
     }
 
     #duport
     {
-        background-position: 0px -180px;
+        background-position: 0px -60px;
     }
 
     #mouettes
     {
-        background-position: 0px -150px;
+        background-position: 0px -50px;
     }
 
     #delamer
     {
-        background-position: 0px -280px;
+        background-position: 0px -100px;
     }
 
     #panier
     {
-        background-position: 0px -100px;
+        background-position: 0px -30px;
     }
 
     #amina
     {
-        background-position: 0px -520px;
+        background-position: 0px -190px;
+    }
+
+    #more_results
+    {
+        flex: 0.3;
+        height: auto;
     }
 }
 
@@ -986,30 +888,23 @@ em
     {
         order: 1;
         width: 100%;
-        height: 1720px;
+        height: 600px;
         border-radius: 0;
         padding: 0;
         padding-left: 5%;
         padding-right: 5%;
-        padding-top: 120px;
-        padding-bottom: 100px;
-    }
-
-    #populaire i
-    {
-        font-size: 3.5em;
+        padding-top: 20px;
+        padding-bottom: 30px;
     }
 
     #header_populaires
     {
-        height: 150px;
+        align-items: center;
     }
 
-    .boite_populaire
+    #grille_populaires
     {
-        border-radius: 40px;
-        border: 10px solid white;
-        height: 32%;
+        justify-content: space-around;
     }
 
     .boite_populaire .photo
@@ -1024,18 +919,18 @@ em
 
     #soleildumatin
     {
-        background-position: -120px;
+        background-position: -30px;
     }
 
     #coeurdeleau
     {
-        background-position: -90px;
+        background-position: 0;
     }
 
     #bleublanc
     {
-        background-size: 50%;
-        background-position: 0px -150px;
+        background-size: 45%;
+        background-position: -10px -35px;
     }
 }
 
@@ -1054,7 +949,7 @@ em
 #activites h3
 {
     margin-top: 80px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 #grille_activites
@@ -1161,52 +1056,46 @@ em
 {
     #activites
     {
-        height: 3620px;
-        padding-top: 90px;
-        padding-bottom: 80px;
+        height: 1350px;
+        padding: 0;
+        padding-top: 30px;
     }
 
     #activites h3
     {
-        font-size: 3.5em;
-        height: 150px;
-        margin-block: 0;
-    }
-
-    #activites h5
-    {
-        font-size: 2.4em;
+        margin-top: 0;
+        margin-bottom: 30px;
     }
 
     #grille_activites
     {
         flex-direction: column;
-        height: 3300px;
-        justify-content: flex-start;
+        justify-content: space-between;
+        height: 1230px;
     }
 
     #col_deux, #col_quatre
     {
         width: 100%;
-        height: auto;
-    }
-
-    #col_deux .boite_activite, #col_quatre .boite_activite
-    {
-        height: 500px;
-        margin-bottom: 50px;
+        height: 410px;
     }
 
     .col_mono
     {
         width: 100%;
-        height: 500px;
-        margin-bottom: 50px;
+        height: 205px;
     }
 
-    .boite_activite
+    .col_mono .boite_activite
     {
-        border-radius: 40px;
+        height: 175px;
+        margin-bottom: 30px;
+    }
+
+    #col_deux .boite_activite, #col_quatre .boite_activite
+    {
+        height: 175px;
+        margin-bottom: 30px;
     }
 
     #activites .boite_texte
@@ -1216,17 +1105,17 @@ em
 
     #vieuxport
     {
-        background-position: 0;
+        background-position: 0px -15px;
     }
 
     #pomegues
     {
-        background-position: 0px -400px;
+        background-position: 0;
     }
 
     #frioul
     {
-        background-position: 0px -30px;
+        background-position: 0px -20px;
     }
 
     #calanques
@@ -1236,12 +1125,12 @@ em
 
     #notredame
     {
-        background-position: 0px -20px;
+        background-position: 0px -10px;
     }
 
     #longchamp
     {
-        background-position: 0px -60px;
+        background-position: 0px -40px;
     }
 }
 
@@ -1291,21 +1180,11 @@ footer h4
 {
     footer
     {
-        height: 1300px;
+        height: 600px;
         flex-direction: column;
         justify-content: space-around;
         padding-top: 30px;
-    }
-
-    footer h4
-    {
-        font-size: 2.5em;
-        margin-bottom: 60px;
-    }
-
-    footer ul
-    {
-        font-size: 2.4em;
+        padding-bottom: 10px;
     }
 
     footer div
