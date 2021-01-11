@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'ralewayregular';
-    src: url('fonts/raleway-regular-webfont.eot');
-    src: url('fonts/raleway-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/raleway-regular-webfont.woff2') format('woff2'),
-         url('fonts/raleway-regular-webfont.woff') format('woff'),
-         url('fonts/raleway-regular-webfont.ttf') format('truetype'),
-         url('fonts/raleway-regular-webfont.svg#ralewayregular') format('svg');
+    src: url('../fonts/raleway-regular-webfont.eot');
+    src: url('../fonts/raleway-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway-regular-webfont.woff2') format('woff2'),
+         url('../fonts/raleway-regular-webfont.woff') format('woff'),
+         url('../fonts/raleway-regular-webfont.ttf') format('truetype'),
+         url('../fonts/raleway-regular-webfont.svg#ralewayregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -13,12 +13,12 @@
 
 @font-face {
     font-family: 'ralewayextrabold';
-    src: url('fonts/raleway-extrabold-webfont.eot');
-    src: url('fonts/raleway-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/raleway-extrabold-webfont.woff2') format('woff2'),
-         url('fonts/raleway-extrabold-webfont.woff') format('woff'),
-         url('fonts/raleway-extrabold-webfont.ttf') format('truetype'),
-         url('fonts/raleway-extrabold-webfont.svg#ralewayextrabold') format('svg');
+    src: url('../fonts/raleway-extrabold-webfont.eot');
+    src: url('../fonts/raleway-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway-extrabold-webfont.woff2') format('woff2'),
+         url('../fonts/raleway-extrabold-webfont.woff') format('woff'),
+         url('../fonts/raleway-extrabold-webfont.ttf') format('truetype'),
+         url('../fonts/raleway-extrabold-webfont.svg#ralewayextrabold') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -735,7 +735,7 @@ em
 
 #cannebiere
 {
-    background: url('img/small/cannebiere.jpg');
+    background: url('../img/small/cannebiere.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0px -60px;
@@ -743,7 +743,7 @@ em
 
 #duport
 {
-    background: url('img/small/duport.jpg');
+    background: url('../img/small/duport.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0px -60px;
@@ -751,7 +751,7 @@ em
 
 #mouettes
 {
-    background: url('img/small/mouettes.jpg');
+    background: url('../img/small/mouettes.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0px -60px;
@@ -759,7 +759,7 @@ em
 
 #delamer
 {
-    background: url('img/small/delamer.jpg');
+    background: url('../img/small/delamer.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0px -100px;
@@ -767,7 +767,7 @@ em
 
 #panier
 {
-    background: url('img/small/panier.jpg');
+    background: url('../img/small/panier.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0px -60px;
@@ -775,7 +775,7 @@ em
 
 #amina
 {
-    background: url('img/small/amina.jpg');
+    background: url('../img/small/amina.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0px -190px;
@@ -1020,7 +1020,7 @@ em
 
 #soleildumatin
 {
-    background: url('img/small/soleildumatin.jpg');
+    background: url('../img/small/soleildumatin.jpg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: -50px;
@@ -1028,7 +1028,7 @@ em
 
 #coeurdeleau
 {
-    background: url('img/small/coeurdeleau.jpg');
+    background: url('../img/small/coeurdeleau.jpg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: -50px;
@@ -1036,7 +1036,7 @@ em
 
 #bleublanc
 {
-    background: url('img/small/bleublanc.jpg');
+    background: url('../img/small/bleublanc.jpg');
     background-size: 35%;
     background-repeat: no-repeat;
     background-position: 0px -30px;
@@ -1239,7 +1239,7 @@ em
 
 #vieuxport
 {
-    background: url('img/small/vieuxport.jpg');
+    background: url('../img/small/vieuxport.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: -150px;
@@ -1248,7 +1248,7 @@ em
 #pomegues
 {
     height: 55%;
-    background: url('img/small/pomegues.jpg');
+    background: url('../img/small/pomegues.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0px -200px;
@@ -1257,7 +1257,7 @@ em
 #frioul
 {
     height: 35%;
-    background: url('img/small/frioul.jpg');
+    background: url('../img/small/frioul.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0px -70px;
@@ -1265,7 +1265,7 @@ em
 
 #calanques
 {
-    background: url('img/small/calanques.jpg');
+    background: url('../img/small/calanques.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: -160px;
@@ -1274,7 +1274,7 @@ em
 #notredame
 {
     height: 43%;
-    background: url('img/small/notredame.jpg');
+    background: url('../img/small/notredame.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0px;
@@ -1283,7 +1283,7 @@ em
 #longchamp
 {
     height: 47%;
-    background: url('img/small/longchamp.jpg');
+    background: url('../img/small/longchamp.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0px -70px;
