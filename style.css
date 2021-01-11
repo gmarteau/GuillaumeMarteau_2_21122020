@@ -226,7 +226,7 @@ nav a:hover
 }
 
 /*Mobile - TITRE*/
-@media screen and (max-device-width: 540px)
+@media screen and (max-device-width: 599px)
 {
     #titre
     {
@@ -320,7 +320,7 @@ nav a:hover
 }
 
 /*Mobile - BARRE DE RECHERCHE*/
-@media screen and (max-device-width: 540px)
+@media screen and (max-device-width: 599px)
 {
     #recherche
     {
@@ -372,7 +372,7 @@ nav a:hover
 }
 
 /*Tablet - BARRE DE RECHERCHE*/
-@media screen and (min-device-width: 541px) and (max-device-width: 1024px)
+@media screen and (min-device-width: 600px) and (max-device-width: 1024px)
 {
     #searchbar_desktop
     {
@@ -472,7 +472,7 @@ nav a:hover
 }
 
 /*Mobile - FILTRES*/
-@media screen and (max-device-width: 540px)
+@media screen and (max-device-width: 599px)
 {
     #filtres
     {
@@ -512,7 +512,7 @@ nav a:hover
 }
 
 /*Tablet - FILTRES*/
-@media screen and (min-device-width: 541px) and (max-device-width: 1024px)
+@media screen and (min-device-width: 600px) and (max-device-width: 1024px)
 {
     #recherche
     {
@@ -572,7 +572,7 @@ nav a:hover
 }
 
 /*Mobile - NOMBRE RESULTATS*/
-@media screen and (max-device-width: 540px)
+@media screen and (max-device-width: 599px)
 {
     #info_result
     {
@@ -779,7 +779,7 @@ em
 }
 
 /*Mobile - RESULTATS*/
-@media screen and (max-device-width: 540px)
+@media screen and (max-device-width: 599px)
 {    
     #resultats
     {
@@ -861,7 +861,7 @@ em
 }
 
 /*Tablet - RESULTATS*/
-@media screen and (min-device-width: 541px) and (max-device-width: 1024px)
+@media screen and (min-device-width: 600px) and (max-device-width: 1024px)
 {
     #resultats
     {
@@ -1040,7 +1040,7 @@ em
 }
 
 /*Mobile - POPULAIRE*/
-@media screen and (max-device-width: 540px)
+@media screen and (max-device-width: 599px)
 {
     #populaire
     {
@@ -1093,7 +1093,7 @@ em
 }
 
 /*Tablet - POPULAIRE*/
-@media screen and (min-device-width: 541px) and (max-device-width: 1024px)
+@media screen and (min-device-width: 600px) and (max-device-width: 1024px)
 {
     #populaire
     {
@@ -1288,7 +1288,7 @@ em
 
 
 /*Mobile - ACTIVITES*/
-@media screen and (max-device-width: 540px)
+@media screen and (max-device-width: 599px)
 {
     #activites
     {
@@ -1372,7 +1372,7 @@ em
 
 
 /*Tablet - ACTIVITES*/
-@media screen and (min-device-width: 541px) and (max-device-width: 1024px)
+@media screen and (min-device-width: 600px) and (max-device-width: 1024px)
 {
     #activites
     {
@@ -1553,7 +1553,7 @@ footer h4
 
 
 /*Mobile - FOOTER*/
-@media screen and (max-device-width: 540px)
+@media screen and (max-device-width: 599px)
 {
     footer
     {
@@ -1571,7 +1571,7 @@ footer h4
 }
 
 /*Tablet - FOOTER*/
-@media screen and (min-device-width: 541px) and (max-device-width: 1024px)
+@media screen and (min-device-width: 600px) and (max-device-width: 1024px)
 {
     footer
     {

@@ -1,0 +1,19 @@
+{
+  "name": "reservia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prefix": "postcss ./style.css --use autoprefixer -d ./prefixed/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gmarteau/GuillaumeMarteau_2_21122020.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gmarteau/GuillaumeMarteau_2_21122020/issues"
+  },
+  "homepage": "https://github.com/gmarteau/GuillaumeMarteau_2_21122020#readme"
+}
