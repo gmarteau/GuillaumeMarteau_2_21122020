@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prefix": "postcss ./css/style.css --use autoprefixer -d ./css/prefixed/"
+    "prefix": "postcss ./css/style.css --use autoprefixer -d ./css-prefixed/"
   },
   "repository": {
     "type": "git",
