@@ -435,6 +435,7 @@ nav a:hover
 {
     display: flex;
     height: 50px;
+    outline: none;
     background-color: white;
     border: solid 2px #DEEBFF;
     border-radius: 50px;
@@ -471,7 +472,7 @@ nav a:hover
     color: #0065FC;
 }
 
-.filtre:focus
+.filtre:focus, .filtre:active
 {
     background-color: #DEEBFF;
     color: #0065FC;
