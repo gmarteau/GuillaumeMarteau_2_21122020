@@ -471,6 +471,14 @@ nav a:hover
     color: #0065FC;
 }
 
+.filtre:focus
+{
+    background-color: #DEEBFF;
+    color: #0065FC;
+    outline: none;
+}
+
+
 /*Mobile - FILTRES*/
 @media screen and (max-device-width: 599px)
 {
