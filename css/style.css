@@ -268,14 +268,6 @@ nav a:hover
     justify-content: space-between;
 }
 
-@media screen and (max-device-width: 599px)
-{
-    #recherche
-    {
-        height: auto;
-    }
-}
-
 #searchbar_mobile
 {
     display: none;
@@ -330,6 +322,11 @@ nav a:hover
 /*Mobile - BARRE DE RECHERCHE*/
 @media screen and (max-device-width: 599px)
 {
+    #recherche
+    {
+        height: auto;
+    }
+
     #searchbar_desktop
     {
         display: none;
@@ -1372,6 +1369,146 @@ em
         background-position: 0px -40px;
     }
 }
+
+
+/*Tablet - ACTIVITES*/
+@media screen and (min-device-width: 600px) and (max-device-width: 1024px)
+{
+    #activites
+    {
+        height: 650px;
+        padding-bottom: 0;
+    }
+
+    #activites h3
+    {
+        margin-top: 0;
+        margin-bottom: 42px;
+    }
+
+    #grille_activites
+    {
+        height: 550px;
+        flex-flow: row wrap;
+    }
+
+    .col_mono, #col_deux, #col_quatre
+    {
+        width: 48%;
+        height: 250px;
+    }
+
+    #col_quatre
+    {
+        order: 3;
+    }
+
+    #col_trois
+    {
+        order: 4;
+    }
+
+    #col_deux .boite_activite, #col_quatre .boite_activite
+    {
+        height: 120px;
+    }
+
+    #activites .boite_texte
+    {
+        height: 25%;
+    }
+
+    #vieuxport
+    {
+        background-position: 0;
+    }
+
+    #pomegues
+    {
+        background-position: 0px -220px;
+        flex-flow: row nowrap;
+    }
+
+    #pomegues .boite_texte
+    {
+        height: 100%;
+        width: 35%;
+        border-bottom-right-radius: 15px;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 0;
+        padding-right: 15px;
+        word-break: break-word;
+    }
+
+    #frioul
+    {
+        background-position: 0px -60px;
+        flex-flow: row nowrap;
+    }
+
+    #frioul .boite_texte
+    {
+        order: 1;
+        height: 100%;
+        width: 35%;
+        border-bottom-right-radius: 0;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 15px;
+        border-top-left-radius: 15px;
+        padding-right: 15px;
+    }
+
+    #frioul .photo
+    {
+        order: 2;
+    }
+
+    #calanques
+    {
+        background-position: 0px -10px;
+    }
+
+    #notredame
+    {
+        background-position: 0px -30px;
+        flex-flow: row nowrap;
+    }
+
+    #notredame .boite_texte
+    {
+        order: 1;
+        height: 100%;
+        width: 35%;
+        border-bottom-right-radius: 0;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 15px;
+        border-top-left-radius: 15px;
+        padding-right: 15px;
+    }
+
+    #notredame .photo
+    {
+        order: 2;
+    }
+
+    #longchamp
+    {
+        background-position: 0px -70px;
+        flex-flow: row nowrap;
+    }
+
+    #longchamp .boite_texte
+    {
+        height: 100%;
+        width: 35%;
+        border-bottom-right-radius: 15px;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 0;
+        padding-right: 15px;
+        word-break: break-word;
+    }
+}
+
 
 /*FOOTER*/
 
