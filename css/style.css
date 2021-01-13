@@ -469,9 +469,10 @@ nav a:hover
     padding-right: 15px;
 }
 
-.filtre:focus, .filtre:active
+.filtre:focus, .filtre:active, .filtre:hover
 {
     outline: none;
+    cursor: pointer;
 }
 
 .filtre::after
