@@ -445,6 +445,9 @@ nav a:hover
     font-weight: bold;
     flex-wrap: nowrap;
     padding: 0;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
 }
 
 .filtre_icon
@@ -466,17 +469,30 @@ nav a:hover
     padding-right: 15px;
 }
 
-.filtre:hover
-{
-    background-color: #DEEBFF;
-    color: #0065FC;
-}
-
 .filtre:focus, .filtre:active
 {
-    background-color: #DEEBFF;
-    color: #0065FC;
     outline: none;
+}
+
+.filtre::after
+{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #DEEBFF;
+    border-radius: 50px;
+    transform-origin: left;
+    transform: scaleX(0);
+    transition: transform 150ms ease-in-out;
+    z-index: -1;
+}
+
+.filtre:hover::after, .filtre:focus::after, .filte:active::after
+{
+    transform: scaleX(1);
 }
 
 
