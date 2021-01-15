@@ -142,7 +142,7 @@ nav a:hover
 }
 
 /*Mobile + Tablet - HEADER*/
-@media screen and (max-device-width: 1024px)
+@media screen and (max-width: 1024px)
 {
     header
     {
@@ -183,8 +183,8 @@ nav a:hover
     {
         justify-content: space-around;
         width: 100%;
-        padding-inline-start: 0;
-        margin-block: 0;
+        padding-left: 0;
+        margin-top: 2em;
         height: 100%;
     }
 
@@ -226,7 +226,7 @@ nav a:hover
 }
 
 /*Mobile - TITRE*/
-@media screen and (max-device-width: 599px)
+@media screen and (max-width: 599px)
 {
     #titre
     {
@@ -239,15 +239,13 @@ nav a:hover
     {
         font-size: 1.4em;
         width: 100%;
-        margin-block: 0;
         margin-top: 30px;
-        margin-bottom: 10px;
+        margin-bottom: 0;
     }
 
     #titre h2
     {
         width: 100%;
-        margin-block: 0;
         margin-bottom: 30px;
     }
 }
@@ -320,7 +318,7 @@ nav a:hover
 }
 
 /*Mobile - BARRE DE RECHERCHE*/
-@media screen and (max-device-width: 599px)
+@media screen and (max-width: 599px)
 {
     #recherche
     {
@@ -372,7 +370,7 @@ nav a:hover
 }
 
 /*Tablet - BARRE DE RECHERCHE*/
-@media screen and (min-device-width: 600px) and (max-device-width: 1024px)
+@media screen and (min-width: 600px) and (max-width: 1024px)
 {
     #searchbar_desktop
     {
@@ -498,7 +496,7 @@ nav a:hover
 
 
 /*Mobile - FILTRES*/
-@media screen and (max-device-width: 599px)
+@media screen and (max-width: 599px)
 {
     #filtres
     {
@@ -511,7 +509,7 @@ nav a:hover
 
     #filtres h4
     {
-        margin-block: 0;
+        margin-top: 0;
         margin-bottom: 20px;
     }
 
@@ -538,7 +536,7 @@ nav a:hover
 }
 
 /*Tablet - FILTRES*/
-@media screen and (min-device-width: 600px) and (max-device-width: 1024px)
+@media screen and (min-width: 600px) and (max-width: 1024px)
 {
     #recherche
     {
@@ -598,18 +596,17 @@ nav a:hover
 }
 
 /*Mobile - NOMBRE RESULTATS*/
-@media screen and (max-device-width: 599px)
+@media screen and (max-width: 599px)
 {
     #info_result
     {
-        align-items: flex-start;
-        margin-bottom: 30px;
-        margin-top: 20px;
+        align-items: center;
+        margin-bottom: 10px;
+        margin-top: 10px;
     }
 
     #info_result p
     {
-        margin-block: 0;
         width: 90%;
     }
 }
@@ -642,7 +639,7 @@ nav a:hover
 }
 
 /*Mobile + Tablet - HEBERGEMENTS*/
-@media screen and (max-device-width: 1024px)
+@media screen and (max-width: 1024px)
 {
     #hebergements
     {
@@ -675,7 +672,8 @@ nav a:hover
 {
     height: 10%;
     /*border: 1px solid black;*/
-    margin-block: 0;
+    margin-top: 0;
+    margin-bottom: 0;
     display: flex;
     align-items: flex-start;
     width: 100%;
@@ -685,7 +683,6 @@ nav a:hover
 {
     height: 10%;
     /*border: 1px solid black;*/
-    margin-block: 0;
     padding-top: 35px;
     width: 100%;
 }
@@ -805,7 +802,7 @@ em
 }
 
 /*Mobile - RESULTATS*/
-@media screen and (max-device-width: 599px)
+@media screen and (max-width: 599px)
 {    
     #resultats
     {
@@ -887,7 +884,7 @@ em
 }
 
 /*Tablet - RESULTATS*/
-@media screen and (min-device-width: 600px) and (max-device-width: 1024px)
+@media screen and (min-width: 600px) and (max-width: 1024px)
 {
     #resultats
     {
@@ -991,7 +988,8 @@ em
 
 #populaire h3
 {
-    margin-block: 0;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 #header_populaires
@@ -1066,7 +1064,7 @@ em
 }
 
 /*Mobile - POPULAIRE*/
-@media screen and (max-device-width: 599px)
+@media screen and (max-width: 599px)
 {
     #populaire
     {
@@ -1119,7 +1117,7 @@ em
 }
 
 /*Tablet - POPULAIRE*/
-@media screen and (min-device-width: 600px) and (max-device-width: 1024px)
+@media screen and (min-width: 600px) and (max-width: 1024px)
 {
     #populaire
     {
@@ -1314,7 +1312,7 @@ em
 
 
 /*Mobile - ACTIVITES*/
-@media screen and (max-device-width: 599px)
+@media screen and (max-width: 599px)
 {
     #activites
     {
@@ -1398,7 +1396,7 @@ em
 
 
 /*Tablet - ACTIVITES*/
-@media screen and (min-device-width: 600px) and (max-device-width: 1024px)
+@media screen and (min-width: 600px) and (max-width: 1024px)
 {
     #activites
     {
@@ -1557,7 +1555,7 @@ footer ul
 {
     font-size: 1.1em;
     list-style-type: none;
-    padding-inline: 0;
+    padding-left: 0;
 }
 
 footer a
@@ -1573,12 +1571,12 @@ footer li
 
 footer h4
 {
-    margin-block: 0;
+    margin-top: 0;
     margin-bottom: 30px;
 }
 
 /*Mobile - FOOTER*/
-@media screen and (max-device-width: 599px)
+@media screen and (max-width: 599px)
 {
     footer
     {
@@ -1596,7 +1594,7 @@ footer h4
 }
 
 /*Tablet - FOOTER*/
-@media screen and (min-device-width: 600px) and (max-device-width: 1024px)
+@media screen and (min-width: 600px) and (max-width: 1024px)
 {
     footer
     {
